@@ -55,8 +55,8 @@ export default {
                             <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Clicksound</div>
-                            <p>{{ level.clicksound || 'Not Needed' }}</p>
+                            <div class="type-title-sm">Handcam</div>
+                            <p>{{ level.handcam || 'Not Needed' }}</p>
                     </ul>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
